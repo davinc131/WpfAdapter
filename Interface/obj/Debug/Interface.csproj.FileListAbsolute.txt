@@ -1,0 +1,6 @@
+C:\Users\Leonardo\source\repos\WpfAdapter\Interface\bin\Debug\Interface.dll
+C:\Users\Leonardo\source\repos\WpfAdapter\Interface\bin\Debug\Interface.pdb
+C:\Users\Leonardo\source\repos\WpfAdapter\Interface\obj\Debug\Interface.csprojAssemblyReference.cache
+C:\Users\Leonardo\source\repos\WpfAdapter\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\source\repos\WpfAdapter\Interface\obj\Debug\Interface.dll
+C:\Users\Leonardo\source\repos\WpfAdapter\Interface\obj\Debug\Interface.pdb
