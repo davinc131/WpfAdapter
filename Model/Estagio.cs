@@ -7,31 +7,15 @@ using Interface;
 
 namespace Model
 {
-    public class Estagio : AdapterInterface
+    public class Estagio
     {
-        public string local { get; set; }
-        public string cargo { get; set; }
+        public string Local { get; set; }
+        public string Cargo { get; set; }
 
         public Estagio(string local, string cargo)
         {
-            this.local = local;
-            this.cargo = cargo;
-        }
-
-        public string getDetalhes()
-        {
-            return "Local: " + local + "\n" + "Cargo: " + cargo;
-        }
-
-        public string getType()
-        {
-            return "Estágio";
-        }
-
-        override
-        public string ToString()
-        {
-            return local + " ( " + getType() + ")";
+            this.Local = local;
+            this.Cargo = cargo;
         }
     }
 }

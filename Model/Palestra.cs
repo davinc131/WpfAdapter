@@ -7,33 +7,17 @@ using Interface;
 
 namespace Model
 {
-    public class Palestra : AdapterInterface
+    public class Palestra
     {
-        public string assunto;
-        public string palestrante;
-        public string data;
+        public string Assunto;
+        public string Palestrante;
+        public string Data;
 
         public Palestra(string assunto, string palestrante, string data)
         {
-            this.assunto = assunto;
-            this.data = data;
-            this.palestrante = palestrante;
-        }
-
-        public string getDetalhes()
-        {
-            return "Assunto: " + assunto + "\n" + "Data: " + data + "\n" + "Palestrante: " + palestrante;
-        }
-
-        public string getType()
-        {
-            return "Palestra";
-        }
-
-        override
-        public string ToString()
-        {
-            return assunto + " (" + getType() + ")";
+            this.Assunto = assunto;
+            this.Data = data;
+            this.Palestrante = palestrante;
         }
     }
 }

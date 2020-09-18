@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\EstagioAdapter.cs" />
+    <Compile Include="Adapter\MonitoriaAdapter.cs" />
+    <Compile Include="Adapter\PalestraAdapter.cs" />
+    <Compile Include="Adapter\VisitaTecnicaAdapter.cs" />
     <Compile Include="Estagio.cs" />
     <Compile Include="Monitoria.cs" />
     <Compile Include="Palestra.cs" />

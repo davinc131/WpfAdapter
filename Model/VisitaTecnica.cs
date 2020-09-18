@@ -7,32 +7,17 @@ using Interface;
 
 namespace Model
 {
-    public class VisitaTecnica : AdapterInterface
+    public class VisitaTecnica
     {
-        public string destino;
-        public string data;
-        public string interesse;
+        public string Destino;
+        public string Data;
+        public string Interesse;
 
         public VisitaTecnica(string destino, string data, string interesse)
         {
-            this.data = data;
-            this.destino = destino;
-            this.interesse = interesse;
-        }
-        public string getDetalhes()
-        {
-            return "Destino: " + destino + "\n" + "Data: " + data + "\n" + "Interesse: " + interesse;
-        }
-
-        public string getType()
-        {
-            return "Visita Técnica";
-        }
-
-        override
-        public string ToString()
-        {
-            return destino + " (" + getType() + ")";
+            this.Data = data;
+            this.Destino = destino;
+            this.Interesse = interesse;
         }
     }
 }
